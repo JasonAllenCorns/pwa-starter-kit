@@ -13,7 +13,7 @@ import {
   compose,
   applyMiddleware,
   combineReducers
-} from 'redux';
+} from 'redux/es/redux.mjs';
 import thunk from 'redux-thunk';
 import { lazyReducerEnhancer } from 'pwa-helpers/lazy-reducer-enhancer.js';
 
